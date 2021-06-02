@@ -1,0 +1,13 @@
+{
+  "name": "inm420_assignemnt1",
+  "version": "1.0.0",
+  "description": "INM420_Assignment1",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Sejin",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
