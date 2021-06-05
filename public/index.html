@@ -8,6 +8,8 @@
 
   <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--Bootstrap Icon-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <!--CSS-->
   <link href="../style.css" rel="stylesheet">
   <!--Font-->
@@ -18,97 +20,274 @@
   <!--nav-->
   <nav class="navbar navbar-expand-lg navbar-light navbar-background" >
     <div class="container-fluid">
-      <img src="../img/icon-layout_png.png" alt="logo"/>
-      <div class="logo-name">Grid</div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">How it works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Who are we</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">What we do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
-          </li>
-        </ul>
-        <button class="signin">Sign in</button>
+      <div class="container navbar-container">
+        <div class="logo-name">
+          <img src="../img/icon-layout_png.png" alt="logo"/>
+          <div class="desktop-grid">Grid</div>
+        </div>
+        <div class="mobile-navbar">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Who are we</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">What we do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-grid">Grid</div>
+        </div>
+        <div class="signin-container">
+          <button class="signin">Sign in</button>
+        </div>
       </div>
     </div>
     </nav>
+
+
     <!--hero-->
     <div class="hero">
+      <div class="backgroundImg-container">
+        <img src="../img/background-image.jpg" alt="background image" />
+      </div>
+      <div class="container"> <!-- 'container' class is already set in bootstrap. -->
+        <div class="row">
+          <div class= "col-sm">
+            <h1>Combine <span class= "fine">fine </span>images <br> To represent a product</h1>
+      <!--grid-->
+      <div class="hero-grid">
+        <div class="item-content1">
+            <p class="item-content-1-text">Use mixed grid with imagery, replace with your own photos and descriptions</p>
+            <img src="../img/content_img2.png" alt="">
+            <a class="btn btn-primary rounded-pill" href="#">Learn more</a>
+        </div>
+        <div class="item-img2">
+            <img src="../img/content_img1.png" alt="">
+        </div>
+        <div class="item-content2">
+            <p>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+        </div>
+        <div class="item-img3">
+            <img src="../img/content_img3.png" alt="">
+        </div>
+        <div class="item-img4">
+            <img src="../img/content_img4.png" alt="">
+        </div>
+        <div class="item-img5">
+            <img src="../img/content_img5.png" alt="">
+        </div>
+        <div class="item-img6">
+            <img src="../img/content_img6.png" alt="">
+        </div>
+        <div class="item-img7">
+            <img src="../img/content_img7.png" alt="">
+        </div>
+    </div>
 
-      <img src="../img/Shape 2.png" class="hero-background" alt="background image"/>
-      <h1>Combine <span class= "fine">fine </span>images <br> To represent a  product</h1>
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <!--content1-->
+      <div class="container">
+        <div class="content1">
+          <h2>Deliveing good designs since 1954</h2>
+          <p>We're the first multi-purpose design kit solutions for business. We help you bridge <br>
+          gaps between your layouts, templates and developers to empower all involved.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <img src="../img/icon-1.JPG">
+            <h3>Support</h3>
+            <p>Delivering faster and more <br> personalized support with <br> shared screens and cool design <br> systems for Figma</p>
+            <a href="#" class="content-button">
+              Learn more
+            </a>
+          </div>
+          <div class="col">
+            <img src="../img/icon2.JPG">
+            <h3>Sales growth</h3>
+            <p>Identify qualified customers <br> with easy-to-use live chat <br> messaging and AI-based Sales <br> Bot</p>
+            <a href="#" class="content-button">
+              Learn more
+            </a>
+          </div>
+          <div class="col">
+            <img src="../img/icon3.JPG">
+            <h3>Coponents-driven</h3>
+            <p>Delivering faster and more <br> personalized support with <br> shared screens and cool design <br> systems for Figma</p>
+            <a href="#" class="content-button">
+              Learn more
+            </a>
+          </div>
+          <div class="col">
+            <img src="../img/icon4.JPG">
+            <h3>Swap the icon</h3>
+            <p>You can toggle to any icon <br> within Instances and customize <br> outlined stroke to more bolder <br> or lighter</p>
+            <a href="#" class="content-button">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
     <!--content2-->
-    <div class="content2">
-      <h2>Deliveing good designs since 1954</h2>
-      <p>we're the first multi-purpose design kit solutions for business. We help you bridge <br>
-      gaps between your layouts, templates and developers to empower all involved.</p>
-      
-      <!--content2-icon-->
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-          </div>
-          <div>
-            <h3>Support</h3>
-            <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
-            <a href="#" class="content-button">
-              Learn more
-            </a>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
-          </div>
-          <div>
-            <h3>Sales growth</h3>
-            <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
-            <a href="#" class="content-button">
-              Learn more
-            </a>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
-          </div>
-          <div>
-            <h3>Coponents-driven</h3>
-            <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
-            <a href="#" class="content-button">
-              Learn more
-            </a>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
-          </div>
-          <div>
-            <h3>Swap the icon</h3>
-            <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
-            <a href="#" class="content-button">
-              Learn more
-            </a>
+    <div class="container2">
+      <div class="content2">
+        <h4>Affordable pricing</h4>
+        <p class="content2-text">Bill me <span class= "monthly">monthly</span> • yearly</p>
+        <div class="container container-2-content">
+          <div class="price-container">
+            <div class="col content2-row">
+              <div>
+                <p class="divide-section">Like a pussy</p>
+                
+                <h5>Free <span class= "period"> /FOREVER</span></h5>
+                <p class="content2-row-text"><span class="content2-row-icon-left">a</span>Components-driven system</p>
+                <p class="content2-row-text"><span class="content2-row-icon-left">a</span>Sales-boosting landing pages</p>
+                <p class="content2-row-text"><span class="content2-row-icon-left">a</span>Awesome Feather icons pack</p>
+              </div>
+              <a href="#" class="content2-button">
+                Try for free
+              </a>
+            </div>
+            <div class="col content2-row">
+              <div>
+                <p class="divide-section">Individual</p>
+                <h5>$24 <span class= "period"> /MONTH</span></h5>
+                <p class="content2-row-text"><span class="content2-row-icon-center"></span>Components-driven system</p>
+                <p class="content2-row-text"><span class="content2-row-icon-center"></span>Sales-boosting landing pages</p>
+                <p class="content2-row-text"><span class="content2-row-icon-center"></span>Awesome Feather icons pack</p>
+                <p class="content2-row-text"><span class="content2-row-icon-center"></span>Themed into 3 different styles</p>
+                <p class="content2-row-text"><span class="content2-row-icon-center"></span>Will help to learn Figma</p>
+              </div>
+              <a href="#" class="content2-center-button">
+                Regular license
+              </a>
+            </div>
+            <div class="col content2-row">
+              <div>
+                <p class="divide-section">Corporate</p>
+                <h5>$12 <span class= "period"> /EDITOR</span></h5>
+                <p class="content2-row-text"><span class="content2-row-icon-right"></span>Components-driven system</p>
+                <p class="content2-row-text"><span class="content2-row-icon-right"></span>Sales-boosting landing pages</p>
+                <p class="content2-row-text"><span class="content2-row-icon-right"></span>Awesome Feather icons pack</p>
+                <p class="content2-row-text"><span class="content2-row-icon-right"></span>Themed into 3 different styles</p>
+              </div>
+              <a href="#" class="content2-button">
+                Extended license
+              </a>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
-    <!--content3-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" style="border:2px solid red">a</div>
+        <div class="col-md-6" style="border:2px solid blue">b</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" style="border:2px solid red">Information</div>
+        <div class="col-md-6" style="border:2px solid blue">
+          <span>Keep in touch</span>
+          <div class="row">
+            <div class="col-md-6" style="border:2px solid red">Information</div>
+            <div class="col-md-6" style="border:2px solid blue"><span>abc</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" style="border:2px solid red"></div>
+        <div class="col-md-6" style="border:2px solid blue">
+          <span>Keep in touch</span>
+          <!-- <div class="row">
+            <div class="col-md-6" style="border:2px solid red">Information</div>
+            <div class="col-md-6" style="border:2px solid blue"><span>abc</span></div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+     
+    </div>
     
     <!--footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-container-content">
+          <div class="footer-content1">
+            <p class="footer-text">FOLLOW US</p>
+            <div class="icon1"> 
+              <img src="../img/icon-facebook.png" alt="facebook-icon">
+            </div>
+            <div class="icon2">
+              <img src="../img/icon-slack_instagram.png" alt="indeed-icon">
+            </div>
+            <div class="icon3">
+              <img src="../img/icon-slack_.png" alt="slack-icon">
+            </div>
+            <div class="icon4">
+              <img src="../img/Vector.png" alt="twitter-icon">
+            </div>
+          </div>
+          <div class="footer-content2">
+            <p class="footer-text"> INFORMATION</p>
+            <ul>
+              <li class="footer-information">
+                <a class="footer-link" href="#">About Fapster app</a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">Onhovered / Active</a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">We are hiring</a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">Get in Touch</a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">Privacy Policy
+                </a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">Resources</a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">Things We Like</a>
+              </li>
+              <li class="footer-information">
+                <a class="footer-link" href="#">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content3">
+            <p class="footer-text">FOLLOW US</p>
+            <p class="footer-content-text">hello@fapsterapp.com</p>
+          </div>
+          <div class="footer-content4">
+            <p class="footer-text">KEEP IN TOUCH</p>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
 </body>
 </html>
